@@ -1,0 +1,82 @@
+@font-face{
+  font-family: SocialIcons;
+  src: url('../fonts/social_circles/Social-Circles-v1.1.otf');
+}
+
+.slide-out-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+#services {
+  padding-top: 76px;
+}
+
+/* FEATURED */
+#featured {
+  width: 100%;
+  height: calc(100% - 64px);
+}
+
+#featured figure {
+  width: 100%;
+  margin: 0;
+}
+
+#featured figure img {
+  width: 100%;
+}
+
+/* SERVICES */
+.services-link:hover {
+  color: #bf360c;
+  cursor: pointer;
+}
+
+/* PRODUCTS */
+
+.card-title {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* LOCATION */
+#location {
+  height: 500px;
+  width: 100%;
+}
+
+#location iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* CONTACTS */
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 2px solid #bf360c !important;
+  box-shadow: none !important;
+}
+
+
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #bf360c !important;
+}
+
+/* FOOTER */
+.icons-list li {
+  display: inline;
+}
+
+.icons-list li a {
+  font-family: SocialIcons;
+  font-size: 64px;
+  color: #fff;
+}
+
+.icons-list li a:hover {
+  color: #000;
+}
